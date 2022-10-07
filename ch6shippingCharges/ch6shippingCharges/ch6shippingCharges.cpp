@@ -30,7 +30,7 @@ int main()
 }
 
 double calculateCharge(double weight, int miles) {
-    const double WEIGHT_TWO =3.10;
+    const double WEIGHT_TWO = 3.10;
     const double WEIGHT_SIX = 4.20;
     const double WEIGHT_TEN = 5.30;
     const double WEIGHT_TEN_PLUS = 6.40;
