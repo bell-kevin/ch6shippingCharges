@@ -41,7 +41,9 @@ NOTE: Remember the requirements for a header and a pause at the end of the progr
 
 Submission: Submit a single zipped folder containing all of the specified screenshots, the table of test cases, AND the root folder for the project.
 
-![1]()
+![1](https://github.com/bell-kevin/ch6shippingCharges/blob/main/shippingCharges.PNG)
+
+![2](https://github.com/bell-kevin/ch6shippingCharges/blob/main/shippingCharges2.PNG)
 
 == We're Using GitHub Under Protest ==
 
