@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-    double weight=0.1, shippingCost = 0.0;
+    double weight, shippingCost;
     int blocks, remainderMiles, miles;
     cout << "Ch 6 Shipping Charges by Kevin Bell\n\n";
     cout << "   Fast Freight Shipping Company\n";
