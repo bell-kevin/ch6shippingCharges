@@ -7,7 +7,8 @@ using namespace std;
 
 int main()
 {
-    double weight=0.1, miles = 0.0, shippingCost = 0.0;
+    double weight=0.1, shippingCost = 0.0;
+    int blocks, remainderMiles, miles;
     cout << "Ch 6 Shipping Charges by Kevin Bell\n\n";
     cout << "   Fast Freight Shipping Company\n";
     cout << "Package Shipping Charges Calculator\n\n";
@@ -18,21 +19,23 @@ int main()
         cout << "Enter shipping distance in miles: ";
         cin >> miles;
         cout << endl;
-       //shippingCost = calculateCharge(weight, miles);
-        if (weight <= 2 && miles <= 500) {
-            shippingCost = 3.10;
+        //shippingCost = calculateCharge(weight, miles);
+        blocks = miles / 500;
+        remainderMiles = miles % 500;
+        if (remainderMiles >= 1) {
+            blocks = blocks + 1;
         }
-        else if (weight <= 2 && miles > 500 && miles <= 1000) {
-            shippingCost = 3.10*2;
+        if (weight <= 2) {
+            shippingCost = 3.10 * blocks;
         }
-        else if (weight > 2 && weight <= 6 && miles <=500) {
-            shippingCost = 4.20;
+        else if (weight > 2 && weight <= 6) {
+            shippingCost = 4.20 * blocks;
         }
-        else if (weight > 6 && weight <= 10 && miles <= 500) {
-            shippingCost = 5.30;
+        else if (weight > 6 && weight <= 10) {
+            shippingCost = 5.30 * blocks;
         }
-        else if (weight > 10 && miles <= 500) {
-            shippingCost= 6.40;
+        else if (weight > 10) {
+            shippingCost= 6.40 * blocks;
         }
         cout << "Shipping cost: $" << shippingCost << endl << endl;
         cout << "Enter package weight in lbs (or 0 to exit): ";
