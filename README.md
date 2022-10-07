@@ -45,6 +45,8 @@ Submission: Submit a single zipped folder containing all of the specified screen
 
 ![2](https://github.com/bell-kevin/ch6shippingCharges/blob/main/shippingCharges2.PNG)
 
+![3](https://github.com/bell-kevin/ch6shippingCharges/blob/main/shippingCharges3.PNG)
+
 == We're Using GitHub Under Protest ==
 
 This project is currently hosted on GitHub.  This is not ideal; GitHub is a
