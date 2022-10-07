@@ -2,9 +2,13 @@
 The Fast Freight Shipping Company charges the following rates:
 
 Weight of Package (in pounds)	Rate per 500 miles shipped
+
 2 lbs and under	$3.10
+
 Over 2 lbs but not more than 6 lbs	$4.20
+
 Over 6 lbs but not more than 10 lbs   	$5.30
+
 Over 10 lbs	$6.40
 
 
@@ -15,9 +19,13 @@ The function needs to determine how many mileage "blocks" there are in the miles
 Create a table of test cases that tests all of the rates. This requires that you test both weight and distance values -- a package that weighs 5 lbs will have a different shipping charge if it's going 500 miles (1 block) than if it's going 2000 miles (4 blocks). You need to test a value in each weight range plus at least 2 different mileage numbers. Here is an example of that test cases table:
 
 weight	miles test 1	miles test 2
+
 (2 lbs and under) test = 1 lb	(1 block) 400 miles	(2 blocks) 800 miles
+
 (Over 2 lbs not more than 6 lbs) test = 5 lbs	(1 block) 400 miles	(2 blocks) 800 miles
+
 (Over 6 lbs not more than 10 lbs) test = 8 lbs	(1 block) 400 miles	(2 blocks) 800 miles
+
 (Over 10 lbs) test = 15 lbs	(1 block) 400 miles	(2 blocks) 800 miles
 
 
